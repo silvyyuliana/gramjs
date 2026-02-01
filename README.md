@@ -107,6 +107,28 @@ General documentation, use cases, quick start, refer to [gram.js.org](https://gr
 
 For more advanced documentation refer to [gram.js.org/beta](https://gram.js.org/beta) (work in progress).
 
+### API Documentation for AI Integration
+
+You can generate comprehensive API documentation for AI integration:
+
+```bash
+npm run docs:json
+```
+
+This generates a complete JSON documentation file (`./docs/documentation.json`) containing all functions, classes, types, and their signatures. Perfect for:
+- AI/LLM integration  
+- Automated code generation
+- API analysis tools
+
+See [AI_INTEGRATION_GUIDE.md](AI_INTEGRATION_GUIDE.md) for detailed usage instructions.
+
+For human-readable HTML documentation:
+```bash
+npm run docs
+```
+
+See [GENERATING_DOCS.md](GENERATING_DOCS.md) for all documentation generation options.
+
 If your ISP is blocking Telegram, you can check [My ISP blocks Telegram. How can I still use GramJS?](https://gist.github.com/SecurityAndStuff/7cd04b28216c49b73b30a64d56d630ab)
 
 ## Ask a question
