@@ -3,6 +3,7 @@
 /.idea/
 # Generated code
 /docs/
+/docs-md/
 /dist/
 /coverage/
 

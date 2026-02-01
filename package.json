@@ -5,7 +5,11 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "docs": "npx typedoc --options type_doc.js",
+    "docs:json": "npx typedoc --options type_doc.js --json docs/documentation.json",
+    "docs:md": "npx typedoc --options type_doc.js --plugin typedoc-plugin-markdown --out docs-md",
+    "docs:all": "npm run docs && npm run docs:json"
   },
   "repository": {
     "type": "git",
