@@ -2,7 +2,7 @@
 /.vscode/
 /.idea/
 # Generated code
-/docs/
+# Note: /docs/ is now committed to make documentation visible in PR
 /docs-md/
 /dist/
 /coverage/
